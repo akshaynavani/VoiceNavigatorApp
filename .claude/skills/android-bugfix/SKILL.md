@@ -1,10 +1,16 @@
----
-name: android-bugfix
-description: Fix Android build, runtime, navigation, or state bugs with the smallest safe change.
----
+Use the android-bugfix skill.
 
-1. Read .claude/CLAUDE.md
-2. Reproduce mentally from logs or code
-3. Find root cause
-4. Make the smallest safe fix
-5. Return root cause, changed files, verification, and residual risk
+Bug:
+[paste crash, build failure, or incorrect behavior]
+
+Scope:
+- identify root cause
+- make the smallest safe fix
+- avoid unrelated refactors
+- run targeted verification only
+
+Return:
+- root cause
+- files changed
+- verification
+- remaining risk
