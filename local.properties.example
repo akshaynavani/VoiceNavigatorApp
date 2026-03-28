@@ -1,0 +1,5 @@
+# Copy this file to local.properties and customize locally.
+# sdk.dir=/Users/yourname/Library/Android/sdk
+
+# Add local secrets here if needed.
+# LLM_API_KEY=replace_me
