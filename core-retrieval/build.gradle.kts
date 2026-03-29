@@ -32,6 +32,9 @@ android {
 }
 
 dependencies {
+    implementation(project(":core-model"))
+    implementation(project(":core-common"))
+
     implementation(platform("androidx.compose:compose-bom:2024.09.00"))
     implementation("androidx.core:core-ktx:1.13.1")
     implementation("androidx.lifecycle:lifecycle-runtime-ktx:2.8.4")

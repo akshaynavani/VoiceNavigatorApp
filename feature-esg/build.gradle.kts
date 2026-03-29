@@ -32,6 +32,13 @@ android {
 }
 
 dependencies {
+    implementation(project(":core-model"))
+    implementation(project(":core-common"))
+    implementation(project(":core-ui"))
+    implementation(project(":core-voice"))
+    implementation("androidx.lifecycle:lifecycle-viewmodel-ktx:2.8.4")
+    implementation("androidx.activity:activity-compose:1.9.1")
+
     implementation(platform("androidx.compose:compose-bom:2024.09.00"))
     implementation("androidx.core:core-ktx:1.13.1")
     implementation("androidx.lifecycle:lifecycle-runtime-ktx:2.8.4")
